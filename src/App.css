@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.no-scrollbar1::-webkit-scrollbar {
+  display: none;
+  height: 385px !important;
+}
+
+.no-scrollbar1 {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  height: 350px !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* @media (min-width: 1024px) {
+  .no-scrollbar {
+    height: 250px !important;
+  }
+}
+@media (min-width: 760px) {
+  .no-scrollbar {
+    height: 150px !important;
+  }
+} */
+
+.sectionSliderProductCard {
+  margin-top: -3rem !important;
+}
+
+@media (max-width: 1023px) {
+  .sectionSliderProductCard {
+    margin-top: 3rem !important;
+  }
+}
+
+.topBanner {
+  font-size: 2.2vh !important;
+  font-weight: 600;
+  color: #9a3412;
+  justify-content: center;
+}
+
+@media (min-width: 1023px) {
+  .topBanner {
+    font-size: 2.2vh !important;
+    font-weight: 600;
+    color: #9a3412;
+    justify-content: center;
+  }
+}
+
+.keywords {
+  padding-left: 14px;
+}
+
+@media (max-width: 767px) {
+  .keywords {
+    margin-left: -24px;
+  }
+}
+
+.nc-MainNav2Logged {
+  width: 100%;
+}
+
+.delivery {
+  fill: red !important; /* #FCC85D */
+}
+.divider {
+  background-color: #9a3412;
+}
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+
+.nc-NextPrev {
+  margin-top: -2.5rem;
+}
+@media (min-width: 330px) and (max-width: 900px) {
+  .nc-NextPrev {
+    /* margin-right: -1rem; */
+    width: 5rem;
+    display: none !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .heading {
+    text-align: center;
+  }
+}
+@media (min-width: 330px) and (max-width: 900px) {
+  .offers {
+    display: none !important;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  .offers {
+    margin-top: 4rem !important;
+    align-content: center !important;
+    width: 100% !important;
+  }
+}
+.sortOrder {
+  margin-top: 1.2rem !important;
+}
+
+.see-all-btn {
+  border: 2px solid lightslategray;
+  margin-right: 10pt !important;
+  color: lightslategray;
+}
+
+.see-all-btn:hover {
+  border: 2px solid #282c34;
+  margin-right: 10pt !important;
+  color: #282c34;
+}

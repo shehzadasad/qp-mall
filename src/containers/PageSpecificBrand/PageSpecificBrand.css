@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#brand-logo {
+  /* background-image: url(../../images/Monark\ 1.svg); */
+  /* background: fixed; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  object-fit: cover;
+  /* width: 150px;
+  height: 150px; */
+  background-color: white;
+  /* border-radius: 50%; */
+  position: relative;
+  bottom: 65px;
+}
+#brand-promotional-banner {
+  background-image: url(../../images/SpecificBrand/Header.svg);
+  /* height: 300px; */
+}
+.brand-details {
+  /* height: 120px; */
+}
